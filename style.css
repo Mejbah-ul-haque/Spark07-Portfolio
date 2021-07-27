@@ -1,0 +1,115 @@
+
+body{
+    background-color: #d4d4d4;
+    /* background-image: url(img/bangladesh2.jpg); */
+}
+
+#logo{
+    
+}
+
+#logo h1{
+    font-size: 90px;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(235, 235, 233);
+    margin: 60px 0;
+    padding-bottom: 10px;
+    border: 10px solid #123368;
+    padding: 20px;
+    text-align: center;
+}
+
+#intro{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 50px 0;
+    border-right: 2px solid #858484;
+    padding: 20px;
+    text-align: end;
+
+}
+#intro p{
+    color:#6f8585;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#intro p:hover{
+    color: yellow;
+}
+
+#mejba-pic{
+    text-align: end;
+}
+
+.logo{
+  margin-top: 50px;
+}
+
+
+.article-body{
+  margin-top: 30px;
+}
+
+#vertical-short-xs{
+    padding: 20px;
+    background: #fff;
+    height: 600px;
+    box-shadow: 0px 0px .3px rgb(37, 37, 37);
+  }
+  
+  #vertical-short-xs:hover{
+    box-shadow: 0px 20px 20px rgb(182, 180, 180); 
+  }
+
+  #vertical-short-xs h6{
+   font-size: 1.1rem;
+   font-weight:500;
+   line-height: normal;
+   color: rgb(66, 65, 65);
+  }
+  
+  #vertical-short-xs h6:hover{
+    color: blue;
+  }
+  
+  #vertical-short-xs h4{
+    background-color: #052962;
+    color:#fff;
+    padding: 5px 10px 10px 15px;
+  }
+
+
+  #vertical-short-xs .card-body{
+    background: var(--light);
+    padding-bottom: .2rem;
+  }
+  
+  #vertical-short-xs a{
+   text-decoration: none;
+  }
+  
+  #vertical-short-xs p:hover{
+   color: blue;
+  }
+  
+  .image-div{  
+    /* transition-delay: 1s; */
+    transition-duration: .5s;
+    }
+    
+    .card-img-top{
+      /* transition-delay: 1s; */
+      /* transition-duration: .5s;  */
+    }
+    
+    .image-div:hover{
+      transform: scale(1.1);
+    }
+
+    #vertical-short-xs:hover .image-div{
+      transform: scale(.3);
+    }
